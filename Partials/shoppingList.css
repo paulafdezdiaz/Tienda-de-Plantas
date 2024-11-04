@@ -1,0 +1,100 @@
+header .encabezado .compra .show #close{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(20, 63, 20);
+}
+
+header .encabezado .compra .show .tuCompra{
+    font-size: 30px;
+    text-align: center;
+}
+header .encabezado .compra .show  .list{
+    table-layout: fixed;
+    width: 100%;
+    line-height: 20px;
+
+}
+header .encabezado .compra .show  .list thead tr th{
+
+    padding: 20px;
+    font-size: 15px;
+
+
+}
+header .encabezado .compra .show table tbody tr td{
+    justify-content: center;
+
+}
+
+header .encabezado .compra .show table tbody tr .cantidad{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    line-height: 25px;
+    width: 30px;
+
+}
+header .encabezado .compra .show table tbody tr .cantidad .acciones{
+    display: flex;
+    flex-direction: column;
+
+
+}
+header .encabezado .compra .show table tbody tr .cantidad .acciones button{
+    background-color: rgb(244, 251, 243);
+    border: none;
+
+
+}
+header .encabezado .compra .show table tbody tr .subtotal{
+    width: 10px;
+
+
+}
+header .encabezado .compra .show table tbody tr .borrar button{
+    background-color: rgb(244, 251, 243);
+    border: none;
+
+
+}
+header .encabezado .compra .show table tbody tr td{
+    width: 100%;
+    padding: 10px 0px 10px 20px 
+    
+}
+
+header .encabezado .compra .show .precioTotal{
+    padding: 20px;
+    font-size: 18px;
+    gap:5px;
+    font-weight: bolder;
+}
+
+header .encabezado .compra .show .comprar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: 70%;
+    margin: 15px 50px;
+    font-size: 18px;
+    background-color: rgb(217, 246, 217);
+    border-radius: 15px; ;
+    border: 2px solid rgb(130, 191, 143) ;
+    color: rgb(20, 63, 20);
+    
+}
+
+header .encabezado .compra .show .limpiarCarrito{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: 70%;
+    margin: 15px 50px;
+    font-size: 18px;
+    background-color: rgb(217, 246, 217);
+    border-radius: 15px; ;
+    border: 2px solid rgb(130, 191, 143) ;
+    color: rgb(20, 63, 20);
+
+}

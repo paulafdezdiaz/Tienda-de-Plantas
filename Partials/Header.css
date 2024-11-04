@@ -1,0 +1,102 @@
+header .info{
+    background-color: rgb(140, 207, 140);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+
+}
+header .info span{
+    margin: 5px;
+    color: rgb(20, 63, 20);
+    font-weight: bold;
+    padding-right: 10px;
+
+}
+
+header .info .localiza a{
+    display: none;
+}
+header .info .localiza i{
+   color: rgb(20, 63, 20);
+   margin: 5px;
+}
+header .info .localiza input {
+    border-radius: 10px;
+    width: 85px;
+}
+header .info .contacto a{
+    display: none;
+}
+
+header .info .contacto .icono{
+    color: rgb(20, 63, 20);
+    margin: 5px;
+
+}
+
+header .encabezado{
+    background-color: rgb(217, 246, 217);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+header .encabezado .logotipo{
+    color: rgb(20, 63, 20);
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+
+header .encabezado .botones{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+header .encabezado .botones .menu-item a{
+    text-decoration: none;
+    color: rgb(20, 63, 20);
+    padding: 5px;
+}
+
+header .encabezado .botones .menu-item a:hover{
+    border: 2px solid rgb(20, 63, 20);
+    border-radius: 10px;
+    color: rgb(20, 63, 20);
+
+}
+
+header .encabezado .compra {
+    background-color:rgb(217, 246, 217);
+    display: flex;
+    flex-direction: row;
+    border: none;
+    color: rgb(20, 63, 20);
+    padding: 20px 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+header .encabezado .compra .show {
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 251, 243);
+    position: fixed;
+    margin-top: 40px;
+}

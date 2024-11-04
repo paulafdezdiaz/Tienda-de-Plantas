@@ -1,0 +1,82 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.productos .products-pill{
+    width: 33%;
+    height: 20%;
+    padding: 25px;
+}
+.productos .products-pill .plantHeader img{
+    width: 100%;
+    height: auto;
+}
+.productos .products-pill .plantBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos .products-pill .plantBody .nameInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.productos .products-pill .plantBody .nameInfo h4{
+    line-height: 25px;
+}
+.productos .products-pill .plantBody .nameInfo .informacion{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 219, 76);
+    border: 2px solid rgb(244, 238, 66) ;
+    color: rgb(23, 22, 22);
+    border-radius: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+
+}
+.productos .products-pill .plantBody span{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.productos .products-pill .buybtn{
+    width: 100%;
+    background-color: rgb(217, 246, 217);
+    border-radius: 10px; ;
+    border: 2px solid rgb(130, 191, 143) ;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.productos .products-pill .buybtn:hover{
+    background-color: rgb(237, 219, 76);
+    border: 2px solid rgb(244, 238, 66);
+    transform: scale(1.1);
+
+}
+.productos .products-pill .plantBody .info.show{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 235, 239);
+    width: 100%;
+    height: auto;
+    margin: 40px auto 0;
+    padding: 5px;
+    border: 1px solid rgb(171, 167, 168);
+    padding: 5px;
+    align-items: center;
+
+}
+
+.productos .products-pill .plantBody .info.show .titulo{
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+.productos .products-pill .plantBody .info.show .descr{
+    text-align: justify;
+    margin: 5px 0px 10px 0px;
+
+}

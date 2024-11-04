@@ -1,0 +1,87 @@
+
+@media(min-width:768px){
+/* navbar info inicio*/
+    header .info .localiza{
+        display: flex;
+    }
+
+    header .info .localiza input {
+        margin: 2px;
+        width: 100%;
+    }
+    header .info .localiza a{
+        display: flex;
+        margin: 5px;
+        text-decoration: none;
+        color: rgb(20, 63, 20);
+        font-size: small;
+    
+    }
+    header .info span{
+        padding: 0px 8px 0px 8px;
+
+    
+    }
+    header .info .contacto{
+        display: flex;
+    }
+    header .info .contacto a{
+        margin: 5px;
+        display: flex;
+        margin: 5px;
+        text-decoration: none;
+        color: rgb(20, 63, 20);
+        font-size: small;
+    }
+    /* navbar info final*/
+    /* navbar encabezado inicio*/
+    header .encabezado{
+        font-size: 18px;
+    }
+    header .encabezado .compra {
+        gap:15px;
+        padding: 20px;
+    }
+    header .encabezado .compra .show {
+        width: 50vw;
+
+    }
+    header .encabezado .compra .show #listaCompra #listaProductos{
+        font-size: 18px;
+
+    }
+    /* navbar encabezado final*/
+    /* productos inicio*/
+    .productos .products-pill{
+        width: 22%;
+        padding: 40px;
+    }
+    /* productos final*/
+    /* footer inicio*/
+    footer .flecha button{
+        font-size: 35px;
+    }
+    /* footer final*/
+
+}
+
+@media(min-width:1024px){
+
+/* productos inicio*/
+    .productos .products-pill{
+        width: 22%;
+        padding: 63px;
+    }
+/* productos final*/
+/* navbar encabezado inicio*/
+    header .encabezado .compra .show {
+        width: 45vw;
+
+    }
+/* navbar encabezado final*/
+    /* footer inicio*/
+    footer .flecha button{
+        font-size: 40px;
+    }
+    /* footer final*/
+}

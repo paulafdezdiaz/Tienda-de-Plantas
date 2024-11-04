@@ -1,0 +1,16 @@
+@import url('../Partials/reset.css');
+@import url('../Partials/Header.css');
+@import url('../Partials/Footer.css');
+@import url('../Partials/Main.css');
+@import url('../Partials/shoppingList.css');
+@import url('../Partials/mediaqueries.css');
+
+html{
+    font-family: 'Dosis';
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
